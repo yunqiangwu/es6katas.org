@@ -21,7 +21,7 @@ export default class FooterComponent extends React.Component {
         
         <ul>
           <li>
-            <a href="https://tddbin.com">uses TDDbin</a>
+            <a href="https://yunqiangwu.github.io/tddbin-frontend">uses TDDbin</a>
           </li>
           <li>{katasCount} katas</li>
         </ul>

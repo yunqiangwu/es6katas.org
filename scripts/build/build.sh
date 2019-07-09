@@ -18,4 +18,4 @@ mkdir -p $DIST_ROOT;
   npm run build:app &&
   npm run build:media
 )
-cp $ORIGIN_ROOT/CNAME $DIST_ROOT/CNAME;
+# cp $ORIGIN_ROOT/CNAME $DIST_ROOT/CNAME;
