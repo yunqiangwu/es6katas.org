@@ -8,7 +8,7 @@ export default class FooterComponent extends React.Component {
         <ul>
           <li>by</li>
           <li>
-            <a href="http://twitter.com/wolframkriesing">
+            <a href="https://twitter.com/wolframkriesing">
               <i className="fa fa-twitter"></i>Wolfram Kriesing
             </a>
           </li>
@@ -21,19 +21,19 @@ export default class FooterComponent extends React.Component {
         
         <ul>
           <li>
-            <a href="http://tddbin.com">uses TDDbin</a>
+            <a href="https://tddbin.com">uses TDDbin</a>
           </li>
           <li>{katasCount} katas</li>
         </ul>
         
         <ul>
           <li>
-            <a href="http://github.com/tddbin/es6katas.org">
+            <a href="https://github.com/tddbin/es6katas.org">
               <i className="fa fa-github"></i>source of this site
             </a>
           </li>
           <li>
-            <a href="http://github.com/tddbin/katas">
+            <a href="https://github.com/tddbin/katas">
               <i className="fa fa-github"></i>all katas
             </a>
           </li>

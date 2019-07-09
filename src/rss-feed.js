@@ -20,10 +20,10 @@ loadViaNode(FLAT_METADATA_URL, function(...args) {
 import rss from 'node-rss';
 
 const title = 'ES6 katas';
-const link = 'http://es6katas.org';
+const link = 'https://es6katas.org';
 const description = 'Learn ECMAScript6 by doing it';
 const author = 'uxebu';
-const feedLink = 'http://es6katas.org/rss/MostRecent.xml';
+const feedLink = 'https://es6katas.org/rss/MostRecent.xml';
 const options = {}; //{'CustomTag': 'This is a custom tag under the channel tag!'};
 
 function createRss(metadata) {
@@ -31,7 +31,7 @@ function createRss(metadata) {
   metadata.forEach((kata) => {
     const itemTitle = `${kata.groupName} - ${kata.name}`;
     const analyticsLink = '?utm_source=RSS%20Feed&utm_medium=RSS&utm_campaign=RSS_Syndication';
-    const itemLink = `http://tddbin.com/${analyticsLink}#?kata=es6/language/${kata.path}`;
+    const itemLink = `https://tddbin.com/${analyticsLink}#?kata=es6/language/${kata.path}`;
     const pubDate = kata.publishDateRfc822;
     const description2 = kata.description;
     feed.addNewItem(itemTitle, itemLink, pubDate, description2, {});

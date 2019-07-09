@@ -1,5 +1,5 @@
 const rawPathToEs6KataLink = (path) => {
-  return `http://tddbin.com/#?kata=es6/language/${path}`;
+  return `https://tddbin.com/#?kata=es6/language/${path}`;
 };
 
 export default class Kata {

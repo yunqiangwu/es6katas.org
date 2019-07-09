@@ -25,8 +25,8 @@ of the page that loads in an instant and the client-side waiting times are minim
 
 [1]: https://twitter.com/tddbin/status/576305472128446466
 [2]: https://github.com/tddbin/katas
-[tddbin]: http://tddbin.com
+[tddbin]: https://tddbin.com
 [babeljs]: https://babeljs.io
-[ES6Katas.org]: http://ES6Katas.org
+[ES6Katas.org]: https://ES6Katas.org
 [@basecode]: https://twitter.com/basecode
-[react.js]: http://facebook.github.io/react/
+[react.js]: https://facebook.github.io/react/

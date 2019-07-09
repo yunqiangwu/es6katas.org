@@ -18,7 +18,7 @@ describe('kata', function() {
     const path = 'template-strings/multiline';
     let kata = Kata.fromRawItem({path});
 
-    const expectedUrl = 'http://tddbin.com/#?kata=es6/language/template-strings/multiline';
+    const expectedUrl = 'https://tddbin.com/#?kata=es6/language/template-strings/multiline';
     
     assert.deepEqual(kata.url, expectedUrl);
   });
